@@ -42,6 +42,13 @@ public class EnemyKamy : MonoBehaviour
             Debug.Log("Explosion");
             
         }
+        if (other.CompareTag("Boule"))
+        {
+            Destroy(gameObject);
+            Debug.Log("Touché");
+        }
         
     }
+
+    
 }
