@@ -1,16 +1,19 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class VieBase : MonoBehaviour
 {
     [SerializeField] private List<GameObject> cadeauxList;
     public int vieInitiale = 100;  // La vie initiale de la base
     private int vieActuelle;       // La vie actuelle de la base
-
     public GameObject gameOver;
+    public bool GameOver = false;
 
     void Start()
     {
+        Time.timeScale = 1f;
         vieActuelle = vieInitiale;
     }
 
@@ -63,11 +66,25 @@ public class VieBase : MonoBehaviour
             // Supprimez le cadeau du jeu
             Destroy(cadeau);
 
-            if (cadeauxList.Count == 0)
+            if (cadeauxList.Count == 0 && !GameOver)
             {
+                GameOver = true;
                 gameOver.SetActive(true);
                 Time.timeScale = 0f;
+                StartCoroutine(RechargerSceneAfterDelay(5f));
             }
         }
+    }
+
+    // Coroutine pour recharger la scène après un délai
+    IEnumerator RechargerSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+
+        // Récupérez l'index de la scène actuelle
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Rechargez la scène actuelle
+        SceneManager.LoadScene(sceneIndex);
     }
 }
