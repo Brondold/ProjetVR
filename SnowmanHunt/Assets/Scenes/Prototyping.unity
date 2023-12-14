@@ -7974,7 +7974,7 @@ Transform:
   m_GameObject: {fileID: 2077434824}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8121,8 +8121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 5212626879783537062, guid: 2aac6b0a6b75a6a44b3681197577fb36, type: 3}
   spawnPoint: {fileID: 640967483}
-  fireSpeed: 15
-  maxAmmo: 5
+  fireSpeed: 18
+  maxAmmo: 7
   currentAmmo: 0
   reloadTime: 1
   ammoScore: {fileID: 242797398}

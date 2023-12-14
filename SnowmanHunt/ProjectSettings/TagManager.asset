@@ -9,6 +9,7 @@ TagManager:
   - Base
   - Jouer
   - EnemiKamy
+  - Boule
   layers:
   - Default
   - TransparentFX
