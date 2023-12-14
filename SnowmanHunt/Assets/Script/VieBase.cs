@@ -7,6 +7,8 @@ public class VieBase : MonoBehaviour
     public int vieInitiale = 100;  // La vie initiale de la base
     private int vieActuelle;       // La vie actuelle de la base
 
+    public GameObject gameOver;
+
     void Start()
     {
         vieActuelle = vieInitiale;
@@ -63,6 +65,7 @@ public class VieBase : MonoBehaviour
 
             if (cadeauxList.Count == 0)
             {
+                gameOver.SetActive(true);
                 Time.timeScale = 0f;
             }
         }
