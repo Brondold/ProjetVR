@@ -8,6 +8,10 @@ using System;
 
 public class FiringBulletOnActive : MonoBehaviour
 {
+
+    [SerializeField] AudioSource shotSound;
+    [SerializeField] AudioSource reloadSound;
+
     public GameObject bullet;
     public Transform spawnPoint;
     public float fireSpeed = 20f;
@@ -57,6 +61,8 @@ public class FiringBulletOnActive : MonoBehaviour
         isReloading = true;
         Debug.Log("RELOADING");
 
+        reloadSound.Play();
+
         yield return new WaitForSeconds(reloadTime);
 
         currentAmmo = maxAmmo;
@@ -73,6 +79,7 @@ public class FiringBulletOnActive : MonoBehaviour
             GameObject spawnedBullet = Instantiate(bullet);
             spawnedBullet.transform.position = spawnPoint.position;
             spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
+            shotSound.Play();
             Destroy(spawnedBullet, 5);
         }
         
