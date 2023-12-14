@@ -32,4 +32,14 @@ public class Enemy : MonoBehaviour
         // Déplacer l'objet vers le point cible
         transform.Translate(Vector3.forward * vitesseDeplacement * Time.deltaTime);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Boule"))
+        {
+            Destroy(gameObject);
+            Debug.Log("Touché");
+        }
+        
+    }
 }
