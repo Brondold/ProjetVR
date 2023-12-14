@@ -6577,7 +6577,7 @@ MonoBehaviour:
   - {fileID: 1974606461}
   - {fileID: 40095194}
   - {fileID: 1615622012}
-  initialSpawnRate: 1
+  initialSpawnRate: 5
   spawnRateIncreaseRate: 0.1
   maxSpawnRate: 3
 --- !u!4 &1467256621

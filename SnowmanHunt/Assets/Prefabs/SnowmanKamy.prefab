@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cible: {fileID: 0}
-  vitesseDeplacement: 5
+  vitesseDeplacement: 3
