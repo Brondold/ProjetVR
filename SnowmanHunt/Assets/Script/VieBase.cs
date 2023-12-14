@@ -22,6 +22,11 @@ public class VieBase : MonoBehaviour
             Debug.Log("Ennemi détecté");
             PerdreVie(10);
         }
+        if (other.CompareTag("EnemiKamy"))
+        {
+            Debug.Log("EnnemiKamy détecté");
+            PerdreVie(30);
+        }
     }
 
     void PerdreVie(int quantite)

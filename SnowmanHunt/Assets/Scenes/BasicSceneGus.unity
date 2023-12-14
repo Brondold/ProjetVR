@@ -185,7 +185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &121596344
@@ -234,7 +235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &148734533
@@ -283,7 +285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &188982689
@@ -432,7 +435,7 @@ GameObject:
   - component: {fileID: 324193024}
   m_Layer: 0
   m_Name: Base
-  m_TagString: Untagged
+  m_TagString: Base
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &370098680
@@ -566,7 +570,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &440089784
@@ -687,7 +692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &523234436
@@ -736,7 +742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &587330174
@@ -831,7 +838,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &698853916
@@ -1014,7 +1022,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &957505718
@@ -1063,7 +1072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1082970760
@@ -1524,7 +1534,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1275942173
@@ -1573,7 +1584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1358169743
@@ -1622,7 +1634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1503068623
@@ -1671,7 +1684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1614011638
@@ -1720,7 +1734,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1663130507
@@ -1769,7 +1784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1724351948
@@ -1818,7 +1834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1800636504
@@ -1867,7 +1884,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1914967792
@@ -1916,7 +1934,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1987519495
@@ -1965,7 +1984,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 3
   enemyPrefabs:
-  - {fileID: 3353703463663523877, guid: f24a17fec087fa44e841b0920420ed93, type: 3}
+  - {fileID: 5081972485312166215, guid: b49ae41c4960f1a4bb73cab66ee81e1b, type: 3}
+  - {fileID: 7429756644771501273, guid: f82aae6c5d2df3e4b8ecdaa85eaf4367, type: 3}
   canSpawn: 1
   spawnChance: 0.142
 --- !u!4 &1993011762

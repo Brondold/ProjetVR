@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour
+public class EnemyKamy : MonoBehaviour
 {
     public Transform cible;
-    public float vitesseDeplacement = 1f;
+    public float vitesseDeplacement = 2f;
 
     void Start()
     {
@@ -31,5 +31,17 @@ public class Enemy : MonoBehaviour
 
         // Déplacer l'objet vers le point cible
         transform.Translate(Vector3.forward * vitesseDeplacement * Time.deltaTime);
+
+        
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Base"))
+        {
+            Destroy(gameObject);
+            Debug.Log("Explosion");
+            
+        }
+        
     }
 }
