@@ -38,10 +38,12 @@ public class FiringBulletOnActive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ammoScore.text = currentAmmo.ToString();
+        if (!isReloading)
+        {
+            ammoScore.text = currentAmmo.ToString();
+        }
 
-        if (isReloading)
-            return;
+        else { return;}
 
         if(currentAmmo <= 0)
         {
@@ -64,8 +66,9 @@ public class FiringBulletOnActive : MonoBehaviour
     public void FireBullet(ActivateEventArgs arg)
     {
         currentAmmo--;
+        //ammoScore.text = currentAmmo.ToString();
 
-        if(currentAmmo >= 0)
+        if (currentAmmo >= 0)
         {
             GameObject spawnedBullet = Instantiate(bullet);
             spawnedBullet.transform.position = spawnPoint.position;
