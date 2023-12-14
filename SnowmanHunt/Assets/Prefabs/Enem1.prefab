@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5846027085091767530}
   - component: {fileID: 5082887811557131643}
   - component: {fileID: 1326770752092501515}
+  - component: {fileID: 990253925358516882}
   m_Layer: 0
   m_Name: Enem1
-  m_TagString: Untagged
+  m_TagString: Ennemi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,5 +121,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c329ff91f6ee06440ad19ba094c6a3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointCible: {fileID: 0}
+  cible: {fileID: 0}
   vitesseDeplacement: 5
+--- !u!54 &990253925358516882
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353703463663523877}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
