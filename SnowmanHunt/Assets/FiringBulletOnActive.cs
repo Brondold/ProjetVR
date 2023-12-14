@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-using System.Collections;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class FiringBulletOnActive : MonoBehaviour
 {
@@ -15,7 +17,8 @@ public class FiringBulletOnActive : MonoBehaviour
     public float reloadTime = 1f;
     private bool isReloading;
 
-    public 
+    public TMP_Text ammoScore;
+
 
 
     // Start is called before the first frame update
@@ -24,13 +27,19 @@ public class FiringBulletOnActive : MonoBehaviour
         XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
         grabbable.activated.AddListener(FireBullet);
 
+        ammoScore.text = currentAmmo.ToString();
+
         if (currentAmmo == -1)
             currentAmmo = maxAmmo;
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        ammoScore.text = currentAmmo.ToString();
+
         if (isReloading)
             return;
 
