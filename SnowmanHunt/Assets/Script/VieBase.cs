@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class VieBase : MonoBehaviour
 {
     [SerializeField] private List<GameObject> cadeauxList;
+    [SerializeField] AudioSource DestroyCadeauSound;
+    [SerializeField] AudioSource DammageSound;
+    [SerializeField] AudioSource KamykazeSound;
     public int vieInitiale = 100;  // La vie initiale de la base
     private int vieActuelle;       // La vie actuelle de la base
     public GameObject gameOver;
@@ -19,7 +22,6 @@ public class VieBase : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Vie actuelle de la base : " + vieActuelle);
     }
 
     void OnTriggerEnter(Collider other)
@@ -27,12 +29,14 @@ public class VieBase : MonoBehaviour
         if (other.CompareTag("Ennemi"))
         {
             Debug.Log("Ennemi détecté");
+            DammageSound.Play();
             PerdreVie(10);
             UpdateCadeaux();
         }
         else if (other.CompareTag("EnemiKamy"))
         {
             Debug.Log("EnnemiKamy détecté");
+            KamykazeSound.Play();
             PerdreVie(30);
             UpdateCadeaux();
         }
@@ -64,6 +68,7 @@ public class VieBase : MonoBehaviour
             cadeauxList.RemoveAt(indexCadeau);
 
             // Supprimez le cadeau du jeu
+            DestroyCadeauSound.Play();
             Destroy(cadeau);
 
             if (cadeauxList.Count == 0 && !GameOver)

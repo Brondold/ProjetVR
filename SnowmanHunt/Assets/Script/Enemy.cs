@@ -5,6 +5,8 @@ public class Enemy : MonoBehaviour
 {
     public Transform cible;
     public float vitesseDeplacement = 1f;
+    [SerializeField] AudioSource KillSound;
+    public GameObject confettis;
 
     void Start()
     {
@@ -37,6 +39,8 @@ public class Enemy : MonoBehaviour
     {
         if (other.CompareTag("Boule"))
         {
+            GameObject vfx = Instantiate(confettis, transform.position, Quaternion.identity);
+            KillSound.Play();
             Destroy(gameObject);
             Debug.Log("Touché");
         }
